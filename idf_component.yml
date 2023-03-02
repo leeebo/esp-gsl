@@ -1,0 +1,14 @@
+version: "0.0.1"
+description: GNU Scientific Library (GSL) Wrapping Component for ESP32/S2/S3
+url: https://github.com/leeebo/esp-gsl
+repository: https://github.com/leeebo/esp-gsl.git
+documentation: https://github.com/leeebo/esp-gsl/README.md
+issues: https://github.com/leeebo/esp-gsl/issues
+discussion: https://github.com/leeebo/esp-gsl/discussions
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+dependencies:
+  idf:
+    version: ">=4.4"

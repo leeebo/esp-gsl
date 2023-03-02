@@ -1,0 +1,11 @@
+gsl_build-build/
+build/
+include/gsl
+.vscode/
+lib/libgsl*
+lib/libgslcblas*
+lib/pkgconfig
+share/
+bin/
+dependencies.lock
+sdkconfig
