@@ -6,7 +6,7 @@ externalproject_add(gsl_build
     TMP_DIR ${COMPONENT_DIR}/build/tmp
     STAMP_DIR ${COMPONENT_DIR}/build/stamp
     SOURCE_DIR "${COMPONENT_DIR}/gsl_2_7"
-    CONFIGURE_COMMAND "${COMPONENT_DIR}/gsl_2_7/configure" "--host=xtensa"
+    CONFIGURE_COMMAND "${COMPONENT_DIR}/gsl_2_7/configure" "--host=xtensa" 
     BUILD_IN_SOURCE 1
     BUILD_ALWAYS 1
     BUILD_COMMAND make CC=${CMAKE_C_COMPILER} CXX=${CMAKE_CXX_COMPILER} {CFLAGS=${CMAKE_C_FLAGS}}   CXXLAGS=${CMAKE_CXX_FLAGS}  AR=${CMAKE_AR} 
