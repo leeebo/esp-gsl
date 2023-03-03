@@ -1,0 +1,13 @@
+macro(esp_gsl_link_public)
+    add_prebuilt_library(gslcblas ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/lib/libgslcblas.a)
+    add_prebuilt_library(gsl ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/lib/libgsl.a)
+    target_link_libraries(${COMPONENT_LIB} PUBLIC gslcblas gsl)
+    target_include_directories(${COMPONENT_LIB} PUBLIC ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/include)
+endmacro()
+
+macro(esp_gsl_link_private)
+    add_prebuilt_library(gslcblas ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/lib/libgslcblas.a)
+    add_prebuilt_library(gsl ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/lib/libgsl.a)
+    target_link_libraries(${COMPONENT_LIB} PRIVATE gslcblas gsl)
+    target_include_directories(${COMPONENT_LIB} PRIVATE ${CMAKE_BINARY_DIR}/gsl_build/${IDF_TARGET}/include)
+endmacro()
