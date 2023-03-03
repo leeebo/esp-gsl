@@ -15,7 +15,7 @@ Unlike the licenses of proprietary numerical libraries the license of GSL does n
 Please use the component manager command `add-dependency` to add the `esp-gsl` to your project's dependency, during the `CMake` step the component will be downloaded automatically
 
 ```
-idf.py add-dependency "leeebo/esp-gsl^0.0.1"
+idf.py add-dependency "leeebo/esp-gsl=*"
 ```
 
 ### Examples
@@ -23,7 +23,7 @@ idf.py add-dependency "leeebo/esp-gsl^0.0.1"
 Please use the component manager command `create-project-from-example` to create the project from example template
 
 ```
-idf.py create-project-from-example "leeebo/esp-gsl^0.0.1:example"
+idf.py create-project-from-example "leeebo/esp-gsl=*:test_project"
 ```
 
 Then the example will be downloaded in current folder, you can check into it for build and flash.

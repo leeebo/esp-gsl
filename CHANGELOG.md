@@ -1,5 +1,11 @@
 # ChangeLog
 
+## v0.0.3 - 2023-03-03
+
+### Bug Fixes:
+
+* Fix readme
+
 ## v0.0.2 - 2023-03-03
 
 ### Bug Fixes:
