@@ -9,3 +9,4 @@ share/
 bin/
 dependencies.lock
 sdkconfig
+managed_components/
