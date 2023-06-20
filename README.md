@@ -1,8 +1,8 @@
 ## Overview
 
-The component is a wrapper of GNU Scientific Library (GSL) for ESP32/S3/S3, users can easily use it under ESP-IDF build system.
+The component is a wrapper of GNU Scientific Library (GSL) for ESP SoCs (ESP32/ESP32-S3...), users can easily use it under ESP-IDF build system.
 
-The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License.
+The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the *GNU General Public License*.
 
 The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.
 

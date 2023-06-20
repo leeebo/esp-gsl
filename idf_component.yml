@@ -1,5 +1,5 @@
-version: "0.0.4"
-description: GNU Scientific Library (GSL) Wrapping Component for ESP32/S2/S3
+version: "0.0.5"
+description: GNU Scientific Library (GSL) Wrapping Component for ESP SoCs
 url: https://github.com/leeebo/esp-gsl
 repository: https://github.com/leeebo/esp-gsl.git
 documentation: https://www.gnu.org/software/gsl/
