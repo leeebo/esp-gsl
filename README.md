@@ -14,6 +14,14 @@ Unlike the licenses of proprietary numerical libraries the license of GSL does n
 
 ## How to use
 
+### Add component from esp-registry to your project
+
+You can use the component manager command `add-dependency` to add the `esp-gsl` to your project's dependency, during the `CMake` step the component will be downloaded automatically
+
+```
+idf.py add-dependency "leeebo/esp-gsl=*"
+```
+
 ### Add component from git repository to your project
 
 To add esp-gsl to your project from git repository, create an idf_component.yml file with the following contents and place it in the component's folder that depends on esp-gsl (for example, in the main folder of your project, since main is a special component in the esp-idf build system). The component will be downloaded automatically during the CMake processing step.
@@ -26,6 +34,14 @@ dependencies:
 ```
 
 > mirror repository: https://gitee.com/qljz/esp-gsl
+
+### Download example from esp-registry
+
+Please use the component manager command `create-project-from-example` to create the project from example template
+
+```
+idf.py create-project-from-example "leeebo/esp-gsl=*:test_project"
+```
 
 ### Download example from git repository
 
