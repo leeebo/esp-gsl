@@ -1,4 +1,4 @@
-version: "0.0.5"
+version: "0.0.6"
 description: GNU Scientific Library (GSL) Wrapping Component for ESP SoCs
 url: https://github.com/leeebo/esp-gsl
 repository: https://github.com/leeebo/esp-gsl.git
