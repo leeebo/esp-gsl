@@ -1,5 +1,10 @@
 # ChangeLog
 
+## v0.0.6 - 2023-07-02
+
+* Build check in github actions
+* Rename LICENCE file
+
 ## v0.0.5 - 2023-06-20
 
 * Release to esp-registry

@@ -1,0 +1,7 @@
+target = "all"
+paths = "examples"
+recursive = true
+check_warnings = true
+ignore_warning_file = ".ignore_build_warnings.txt"
+# build related options
+build_dir = "build_@w"
